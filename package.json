@@ -1,0 +1,22 @@
+{
+  "name": "beautybox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "beautybox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novemberrain00/BeautyBox.js.git"
+  },
+  "keywords": [
+    "beatybox"
+  ],
+  "author": "Kurdyukov Roman Sergeevitch (novemberrain00)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novemberrain00/BeautyBox.js/issues"
+  },
+  "homepage": "https://github.com/novemberrain00/BeautyBox.js#readme"
+}

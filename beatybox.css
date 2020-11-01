@@ -2582,6 +2582,24 @@
   }
 }
 
-@media screen and (max-width: 991px) {
-  
+@media screen and (max-width: 767px) {
+  .beatybox-svg-wrapper {
+    opacity: 0.7;
+  }
+
+  .beatybox-close {
+    left: 86%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .beatybox-close {
+    left: 65%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .beatybox-close {
+    left: 60%;
+  }
 }

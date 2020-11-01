@@ -1,4 +1,4 @@
-function beatybox(pictures, params, crossParams) {
+ffunction beatybox(pictures, params, crossParams) {
 
 	document.querySelector('head').innerHTML += `<link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">`;
 

@@ -57,22 +57,43 @@ Options
 **Default**: "fadeOut"  
 ***
 
-**slideEntrance** - name of slides' animations when it's appears; string; all animations from animate.css containing "in" or "entrance" in name; default - "fadeIn"
+### slideEntrance ###
+**Description**: name of slides' animations when it's appears
+**Type**: string
+**Arguments**: all animations from animate.css containing "in" or "entrance" in name
+**Default**: "fadeIn"
 ***
 
-**animationDuration** - duration of container animations; integer or float; default - 1
+### animationDuration ### 
+**Description**: duration of container animations
+**Type**: integer | float
+**Default**: 1
 ***
 
-**slideEntranceDuration** - duration of slide animation of entrance; integer or float; default - 1
+### slideEntranceDuration ### 
+**Description**: duration of slide animation of entrance
+**Type**: integer | float
+**Default**: 1
 ***
 
-**switching** - type of switching of slides; string; "click" or "arrows"; default - arrows
+### switching ### 
+**Description**: type of switching of slides 
+**Type**: string
+**Arguments**: "click" | "arrows"
+**Default**: arrows
 ***
 
-**closing** - type of closing of container; string; "tap", "cross", "esc", "all"; default - cross
+### closing ### 
+**Description**: type of closing of container
+**Type**: string
+**Arguments**: "tap" | "cross" | "esc" | "all"
+**Default**: cross
 ***
 
-**arrowPrev** - html code of left arrow; string; default:
+### arrowPrev ### 
+**Description**: html code of left arrow
+**Type**: string
+**Default**:
 ```html
 	<div class="beautybox-svg-wrapper">
 		<?xml version="1.0" ?><svg id="blue_copy" style="enable-background:new 0 0 100 100;" version="1.1" viewBox="0 0 100 100" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Layer_4_copy"><path d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7   C27.852,25.902,29.798,24.778,31.356,25.677z"/><path d="M69.981,47.977l-38.625-22.3c-0.233-0.134-0.474-0.21-0.716-0.259l37.341,21.559c1.557,0.899,1.557,3.147,0,4.046   l-38.625,22.3c-0.349,0.201-0.716,0.288-1.078,0.301c0.656,0.938,1.961,1.343,3.078,0.699l38.625-22.3   C71.538,51.124,71.538,48.876,69.981,47.977z"/><path d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046   l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7C27.852,25.902,29.798,24.778,31.356,25.677z" style="fill:none;stroke:#000000;stroke-miterlimit:10;"/></g></svg>
@@ -80,7 +101,10 @@ Options
 ```
 ***
 
-**arrowNext** - html code of right arrow; string; default:
+### arrowNext ### 
+**Description**: html code of right arrow
+**Type**: string
+**Default**:
 ```html
 	<div class="beautybox-svg-wrapper">
 		<?xml version="1.0" ?><svg id="blue_copy" style="enable-background:new 0 0 100 100;" version="1.1" viewBox="0 0 100 100" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Layer_4_copy"><path d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7   C27.852,25.902,29.798,24.778,31.356,25.677z"/><path d="M69.981,47.977l-38.625-22.3c-0.233-0.134-0.474-0.21-0.716-0.259l37.341,21.559c1.557,0.899,1.557,3.147,0,4.046   l-38.625,22.3c-0.349,0.201-0.716,0.288-1.078,0.301c0.656,0.938,1.961,1.343,3.078,0.699l38.625-22.3   C71.538,51.124,71.538,48.876,69.981,47.977z"/><path d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046   l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7C27.852,25.902,29.798,24.778,31.356,25.677z" style="fill:none;stroke:#000000;stroke-miterlimit:10;"/></g></svg>
@@ -88,7 +112,14 @@ Options
 ```
 ***
 
-**counter** - show or not counter of slides; boolean; default - true
+### counter ### 
+**Description**: show or not counter of slide
+**Type**: boolean
+**Default**: true
 ***
 
-**infinite** - is it infinte; boolean; default - true
+**infinite** 
+**Description**: is it infinte
+**Type**: boolean
+**Default**: true
+***

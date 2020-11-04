@@ -1,15 +1,13 @@
 # BeatyBox.js
 BeatyBox - simple and easy to customize lightbox plugin for your website.
 
-Gratitude
+#Gratitude
 
 "BeautyBox.js" uses animations of library "Animate.css". Creator of beautybox thanks creators of animate.css for giving an opportunity to use it!
 Animate.css: https://github.com/animate-css/animate.css
 
 
-
-
-Installation
+#Installation
 
 npm i beautybox
 
@@ -29,12 +27,12 @@ and it before </body>:
 <script type="text/javascript" src="js/beautybox.min.js"></script>
 
 
-Usage
+#Usage
 
 just add beautybox(pictures, options), where "pictures" - is selector of images those must be shown, and "options" is objects with options
 
 
-Options
+#Options
 
 animationNameEntrance - name of container's animations when it's appears; string; all animations from animate.css containing "entrance" or "in" in name; default - "fadeIn"
 

@@ -42,10 +42,19 @@ just add beautybox(pictures, options), where "pictures" - is selector of images 
 Options
 -----
 
-**animationNameEntrance** - name of container's animations when it's appears; string; all animations from animate.css containing "entrance" or "in" in name; default - "fadeIn"
+### animationNameEntrance ###
+**Description**: name of container's animations when it's appears
+**Type**: string
+**Arguments**: all animations from animate.css containing "entrance" or "in" in name
+**Default**: "fadeIn"
+
 ***
 
-**animationNameExit** - name of container's animations when it's disappears; string; all animations from animate.css containing "exit" or "out" in name; default - "fadeOut"
+**animationNameExit** 
+**Description**: name of container's animations when it's disappears
+**Type**: string
+**Arguments**: all animations from animate.css containing "exit" or "out" in name
+**Default**: "fadeOut"
 ***
 
 **slideEntrance** - name of slides' animations when it's appears; string; all animations from animate.css containing "in" or "entrance" in name; default - "fadeIn"

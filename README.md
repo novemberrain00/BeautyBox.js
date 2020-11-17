@@ -36,7 +36,7 @@ and it before </body>:
 Usage
 -----
 
-just add ```beautybox(pictures, options)```, where "pictures" - is selector of images those must be shown, and "options" is objects with options
+just add ```beautybox(pictures, options)``` in your js code, where "pictures" - is selector of images those must be shown, and "options" is objects with options
 
 
 Options

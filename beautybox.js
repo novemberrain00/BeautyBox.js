@@ -115,7 +115,7 @@ function beautybox(pictures, params, crossParams) {
 						$(carouselItems[0]).css('animation-duration', params.slideEntranceDuration + 's');
 					}
 					if(params.counter) {
-						setCounter(n, carouselItems.length);
+						setCounter(i, carouselItems.length);
 					}
 				});
 			});	

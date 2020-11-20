@@ -1,4 +1,6 @@
 beautybox(document.querySelectorAll('img'),{
 	slideEntrance: "fadeIn",
-	counter: true
+	counter: true,
+	counterSwitching: "vertical",
+	swithing: 'click'
 });

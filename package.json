@@ -1,7 +1,7 @@
 {
   "name": "beautybox",
   "version": "1.0.0",
-  "description": "",
+  "description": "BeatyBox - simple and easy to customize lightbox plugin for your website.",
   "main": "beautybox.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -2539,6 +2539,8 @@
 
 .beautybox-counter {
   position: absolute;
+  display: flex;
+  overflow-y: hidden;
   height: 50px;
   padding: 0 10px;
   left: 15%;
@@ -2549,6 +2551,10 @@
   font-size: 35px;
   color: #fff;
   font-family: 'Sen', sans-serif;
+}
+
+.beautybox-currents {
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 1280px) {

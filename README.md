@@ -83,6 +83,13 @@ Options
 **Default**: arrows  
 ***
 
+### switchingOfCounter ### 
+**Description**: effect of switching number of slides
+**Type**: string  
+**Arguments**: "vertical"
+**Default**: false
+***
+
 ### closing ### 
 **Description**: type of closing of container  
 **Type**: string  
